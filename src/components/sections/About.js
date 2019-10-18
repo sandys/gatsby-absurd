@@ -63,9 +63,9 @@ const About = () => (
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Tumeric</h2>
+              <h2>Turmeric</h2>
               <p>
-               The best organic tumeric on the planet. 
+               The best organic turmeric on the planet. 
               </p>
             </div>
           </Grid>

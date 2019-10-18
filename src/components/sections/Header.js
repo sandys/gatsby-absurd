@@ -33,13 +33,13 @@ const Header = () => (
               <h1>
                 Pali Farms
                 <br />
-                Lost Grains
+                Lost Grains and Superfoods
                 <br />
                 of India
               </h1>
               <br />
               <p>
-                <StyledExternalLink href="https://github.com/ajayns/gatsby-absurd">
+                <StyledExternalLink href="/#brands">
                   Check out source &nbsp;&#x2794;
                 </StyledExternalLink>
               </p>
