@@ -48,12 +48,10 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Speed past the competition</h2>
+              <h2>Kala Namak Rice</h2>
               <p>
-                Gatsby.js builds the fastest possible website. Instead of
-                waiting to generate pages when requested, pre-build pages and
-                lift them into a global cloud of servers — ready to be delivered
-                instantly to your users wherever they are.
+                Pali Farms brings you one of the Lost rice of India. Being grown from the time of the Buddha and with a perfume
+                far better than Basmati... 
               </p>
             </div>
             <Art>
@@ -65,23 +63,20 @@ const About = () => (
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Nothing new to learn here</h2>
+              <h2>Tumeric</h2>
               <p>
-                Enjoy the power of the latest web technologies – React.js ,
-                Webpack , modern JavaScript and CSS and more — all set up and
-                waiting for you to start building.
+               The best organic tumeric on the planet. 
               </p>
             </div>
           </Grid>
           <Grid>
             <div>
-              <h2>Grow and build your ideas</h2>
+              <h2>And much more...</h2>
               <p>
-                Waste no more time on tooling and performance. Focus on the the
-                site you want to build and nothing more.
+                We have a lot more organic grains and spices from the secret parts of India
                 <br />
                 <br />
-                Gatsby is fast in every way that matters.
+                Get in touch with us!
               </p>
             </div>
             <Art>

@@ -6,7 +6,8 @@ import Img from 'gatsby-image';
 import { Section, Container } from '@components/global';
 import ExternalLink from '@common/ExternalLink';
 
-import { ReactComponent as AirbnbLogo } from '@images/logos/airbnb.svg';
+import { ReactComponent as IndiaMartLogo } from '@images/logos/indiamart.svg';
+import { ReactComponent as AmazonLogo } from '@images/logos/amazon.svg';
 import { ReactComponent as AppleMusicLogo } from '@images/logos/apple-music.svg';
 import { ReactComponent as CokeLogo } from '@images/logos/coca-cola.svg';
 import { ReactComponent as NodeLogo } from '@images/logos/nodejs.svg';
@@ -15,25 +16,25 @@ import { ReactComponent as InstagramLogo } from '@images/logos/instagram.svg';
 
 const LOGOS = [
   {
-    logo: AirbnbLogo,
-    link: 'https://airbnb.io',
+    logo: AmazonLogo,
+    link: 'https://www.amazon.in/s?k=Pali+Farms',
   },
   {
-    logo: AppleMusicLogo,
-    link: 'https://www.apple.com/in/music/',
+    logo: IndiaMartLogo,
+    link: 'https://www.indiamart.com/pali-farms/',
   },
-  {
-    logo: CokeLogo,
-    link: 'https://coca-cola.com',
-  },
-  {
-    logo: NodeLogo,
-    link: 'https://nodejs.org',
-  },
-  {
-    logo: NikeLogo,
-    link: 'https://nike.com',
-  },
+  // {
+  //   logo: CokeLogo,
+  //   link: 'https://coca-cola.com',
+  // },
+  // {
+  //   logo: NodeLogo,
+  //   link: 'https://nodejs.org',
+  // },
+  // // {
+  // //   logo: NikeLogo,
+  // //   link: 'https://nike.com',
+  // // },
   {
     logo: InstagramLogo,
     link: 'https://instagram.com',
@@ -60,7 +61,7 @@ const UsedBy = () => (
       <Section id="brands" accent>
         <StyledContainer>
           <div>
-            <h1>Used by biggest in tech</h1>
+            <h1>Find us here</h1>
             <LogoGrid>
               {LOGOS.map(({ logo, link }) => (
                 <ExternalLink href={link}>{logo()}</ExternalLink>

@@ -2,17 +2,17 @@ import React from 'react';
 import Helmet from 'react-helmet';
 
 const SEO_DATA = {
-  description: 'An absurd gatsby starter',
-  title: 'Absurd',
+  description: 'Pali Farms by Anay Tripathi',
+  title: 'Pali Farms',
   url: '',
   author: 'ajayns',
-  keywords: ['gatsby', 'site', 'absurd'],
+  keywords: ['Pali Farms', 'Kala Namak rice', 'lost rice', 'buddha rice', 'ancient grains'],
   twitter: {
-    id: '@ajayns08',
+    id: '@palifarms',
     img: '',
   },
   facebook: {
-    id: '',
+    id: 'palifarms',
     img: '',
   },
 };
