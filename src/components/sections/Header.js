@@ -33,9 +33,9 @@ const Header = () => (
               <h1>
                 Pali Farms
                 <br />
-                Lost Grains and Superfoods
+                Ancient Indian Superfoods
                 <br />
-                of India
+                Reintroduced
               </h1>
               <br />
               <p>

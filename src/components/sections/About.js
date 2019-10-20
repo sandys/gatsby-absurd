@@ -48,10 +48,13 @@ const About = () => (
         <Container>
           <Grid>
             <div>
-              <h2>Kala Namak Rice</h2>
+              <h2>BUDDHA RICE: Pure Kalanamak Rice from Kapilvastu</h2>
               <p>
-                Pali Farms brings you one of the Lost rice of India. Being grown from the time of the Buddha and with a perfume
-                far better than Basmati... 
+              Buddha Rice is a rare, ancient and aromatic rice variety from the Land of Buddha: Kapilvastu (currently Siddharthnagar district, Uttar Pradesh, India) It is popularly known as Kalanamak Rice and has been in cultivation since the Buddhist period (600 BC)
+            <br/>
+            This rice variety has a unique black husk from which it derives its name. The rice grains are white and medium sized. Kalanamak rice outshines the basmati in all quality traits except grain length. The aroma of this variety is stronger than that of the basmati. Elongation after cooking, a trait considered most important in determining the quality of rice in international markets, is 40% greater than basmati. Cooked Kalanamak rice is softer and fluffier than other rice varieties.
+            <br/>
+            Kalanamak rice was given the Geographical Indication (GI) tag by Govt. of India in 2013 to mark its extremely limited geography of production. 
               </p>
             </div>
             <Art>
@@ -63,9 +66,13 @@ const About = () => (
               <Img fluid={data.art_learn.childImageSharp.fluid} />
             </Art>
             <div>
-              <h2>Turmeric</h2>
+              <h2>SUPERFOOD HEALTH BLENDS</h2>
               <p>
-               The best organic turmeric on the planet. 
+              Pali Farms' Superfood Health Blends are signature blends that are a mix of Superfoods (the most nutrient-dense foods known to mankind) and vitality enhancing Ayurvedic herbs (potent herbs from ancient Indian wisdom). These are available in flavors like Turmeric+Ginger, Moringa + Tulsi, Beetroot+ Cacao and since everything you need is already in the Health mixes, just blend with hot water or milk of your choice and enjoy the delicious drink full of health and happiness.
+              <br/>
+              Our Health blends are pure, organic, consciously sourced & highest quality ingredients. In fact, every ingredient in every blend has a health benefit. These blends are 100% plant-based, organic or non-GMO ingredients with zero added sugar.
+              <br/>
+              Our blends are rich in dietary fiber and anti oxidants, are anti carcinogenic, anti ageing that aid digestion and help in weight loss. These blends enhances your immunity, activates your metabolism while gently cleansing and nourishing you from inside.
               </p>
             </div>
           </Grid>
